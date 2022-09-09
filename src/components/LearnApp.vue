@@ -60,7 +60,11 @@ export default {
 <template>
     <div class="firstPart">
         <h1 :id="button1_id">Okay GO !</h1>
+
         <button class="btn btn-info btn-flat" @click="increment">Incrementer : {{ add }}</button> <br>
+
+        <!-- <button @click="increment">Incrementer : {{ add }}</button> <br> -->
+
         <input id="input1" :value="textInput" @input="onInputFunction" placeholder="Entrer du texte.."/>
         <p>{{textInput}}</p>
 
