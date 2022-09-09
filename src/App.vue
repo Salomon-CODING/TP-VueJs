@@ -6,10 +6,9 @@
 
 <script>
 import LearnApp from './components/LearnApp.vue'
-<<<<<<< HEAD
+
 import './assets/adminlte.min.css';
-=======
->>>>>>> 23f45e7b8afb8f4d0927b84f405ba42798278c81
+
 
 export default {
   name: 'App',
